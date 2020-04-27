@@ -1,4 +1,6 @@
-import faunadb, { query as q } from 'faunadb';
+import faunadb from 'faunadb';
+
+const { query: q } = faunadb;
 
 const { FAUNADB_SECRET: secret } = process.env;
 
