@@ -9,6 +9,7 @@ if (secret) {
 }
 
 export default async (req, res) => {
+	console.log('secret', secret);
     try {
         let collections = [];
 
